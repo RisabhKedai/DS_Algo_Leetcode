@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2023-10-08 17:41:04
 * @Last Modified by:   lenovo
-* @Last Modified time: 2023-10-08 17:47:43
+* @Last Modified time: 2023-10-08 22:40:36
 */
 
 class Solution {
@@ -46,4 +46,9 @@ public:
  * If we have only the 0th diff left then cost is x/2.
  * So dp[first diff] = x/2
  * dp[no diff] = 0
+ *
+ * Time Complexity: O(m)
+ * Space Complexity: O(m)
+ *
+ * m = number of mismatching bit positions
  */
