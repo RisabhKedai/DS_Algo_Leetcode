@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-### 1. What is the template for writing template classes and function ?
-=======
 ### 1. [What is the template for writing template classes and function ?](https://www.geeksforgeeks.org/templates-cpp/)
->>>>>>> 02967f8 (Started C++ notes)
 
 #### <u>Class: </u>
 ```cpp
@@ -28,11 +24,7 @@ template <typename t1, typename t2 ... > t1 FuncName {
 }
 ```
 
-<<<<<<< HEAD
-### 2. What is the template for writing friend classes and function ?
-=======
 ### 2. [What is the template for writing friend classes and function ?](https://www.geeksforgeeks.org/friend-class-function-cpp/)
->>>>>>> 02967f8 (Started C++ notes)
 
 #### <u>Friend Class: </u>
 ```cpp
@@ -187,8 +179,5 @@ int main()
 
 ```
 
-<<<<<<< HEAD
-=======
 ### REFERENCES: 
 1. [Interview Bit Top 40 question on OOPs](https://www.interviewbit.com/oops-interview-questions/)
->>>>>>> 02967f8 (Started C++ notes)
