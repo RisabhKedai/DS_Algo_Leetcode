@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2023-10-24 21:34:29
 * @Last Modified by:   lenovo
-* @Last Modified time: 2023-10-24 22:15:56
+* @Last Modified time: 2023-10-24 22:24:35
 */
 
 /*================================ QUESTION =======================================
@@ -68,4 +68,7 @@ int main(int argc, char const *argv[]) {
  *
  * After we finished the above loop, we need to double check the final next value.
  * If next ≤ upper, we still have a missing range [next, upper] to add.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
  */
