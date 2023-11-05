@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2023-11-06 01:36:07
 * @Last Modified by:   lenovo
-* @Last Modified time: 2023-11-06 01:48:53
+* @Last Modified time: 2023-11-06 01:57:50
 */
 
 typedef long long int ll;
@@ -94,4 +94,7 @@ public:
  *
  * Time complexity : O(NlogN)
  * Space complexity : O(N)
+ *
+ * Other approaches : Brute approach to check all possibilities of indices
+ * Using DP to find LIS after simplifying the inequality 
  */
