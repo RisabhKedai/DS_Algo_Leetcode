@@ -1,0 +1,5 @@
+Segment Trees: 
+1. Patters in Segment Tree : https://usaco.guide/plat/RURQ?lang=cpp
+2. Problems on different pattern in Segment Trees : https://codeforces.com/blog/entry/22616
+3. Geeks For Geeks complete Segment Tree : https://www.geeksforgeeks.org/segment-tree-data-structure
+
