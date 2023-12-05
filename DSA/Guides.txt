@@ -3,3 +3,5 @@ Segment Trees:
 2. Problems on different pattern in Segment Trees : https://codeforces.com/blog/entry/22616
 3. Geeks For Geeks complete Segment Tree : https://www.geeksforgeeks.org/segment-tree-data-structure
 
+Sparse Table:
+1. Performs range query on static array quickly : https://www.geeksforgeeks.org/sparse-table/
