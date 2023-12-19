@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2023-12-20 00:00:38
 * @Last Modified by:   lenovo
-* @Last Modified time: 2023-12-20 00:02:47
+* @Last Modified time: 2023-12-20 00:06:49
 */
 
 class Solution {
@@ -31,6 +31,6 @@ class Solution {
  * - Similarly, find the shortest tower and minimize the difference between these two towers.  
  *  Handle the case when arr[i]-k<0 because the height can't be negative
  *  
- * Time Complexity : O(n)
- * Space Complexity : O(nlog(n))
+ * Time Complexity : O(nlogn)
+ * Space Complexity : O(1)
  */
