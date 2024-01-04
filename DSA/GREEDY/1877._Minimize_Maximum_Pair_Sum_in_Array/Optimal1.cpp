@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2024-01-04 21:35:27
 * @Last Modified by:   lenovo
-* @Last Modified time: 2024-01-04 21:36:25
+* @Last Modified time: 2024-01-05 22:33:26
 */
 class Solution {
 public:
@@ -22,6 +22,6 @@ public:
 /**
  * Sort the array and then pair maximum element with minimum one
  *
- * Time complexity: O(N)
+ * Time complexity: O(N log N)
  * Space complexity : O(1)
  */
