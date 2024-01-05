@@ -70,3 +70,17 @@
 - Variables which are declared without the let or const keywords are automatically created in the global scope
 
 - A function can include the return statement but it does not have to. In the case that the function doesn't have a return statement, when you call it, the function processes the inner code but the returned value is undefined.
+
+- Objects : Dot notation is what you use when you know the name of the property you're trying to access ahead of time.
+  If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
+
+This works : 
+const obj = {12:"sdfgh", 16:"efgh", 18:"dfsgh"};
+undefined
+obj[12]
+'sdfgh'
+obj["12"]
+'sdfgh'
+
+- We can also delete properties from objects like this: delete ourDog.bark;
+- To check if a property on a given object exists or not, you can use the .hasOwnProperty() method. someObject.hasOwnProperty(someProperty) returns true or false depending on if the property is found on the object or not.
