@@ -84,3 +84,9 @@ obj["12"]
 
 - We can also delete properties from objects like this: delete ourDog.bark;
 - To check if a property on a given object exists or not, you can use the .hasOwnProperty() method. someObject.hasOwnProperty(someProperty) returns true or false depending on if the property is found on the object or not.
+
+
+- The parseInt() function parses a string and returns an integer. Here's an example:
+```
+const a = parseInt("007");
+```
