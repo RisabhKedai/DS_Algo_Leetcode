@@ -90,3 +90,20 @@ obj["12"]
 ```
 const a = parseInt("007");
 ```
+
+- Here's how you can give new variable names in the assignment:
+```
+const { name: userName, age: userAge } = user;
+```
+You may read it as "get the value of user.name and assign it to a new variable named userName" and so on. The value of userName would be the string John Doe, and the value of userAge would be the number 34.
+
+- 
+```
+const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
+console.log(a, b, c);
+```
+The console will display the values of a, b, and c as 1, 2, 5.
+
+- Same destucturing can be done in function parameters
+
+- _ starting variables are private 
