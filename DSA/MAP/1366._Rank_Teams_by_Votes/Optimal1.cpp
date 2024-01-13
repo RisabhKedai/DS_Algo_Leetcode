@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2024-01-11 22:25:32
 * @Last Modified by:   lenovo
-* @Last Modified time: 2024-01-11 22:30:43
+* @Last Modified time: 2024-01-13 14:08:14
 */
 
 
@@ -34,6 +34,6 @@ public:
  * Sort individial letters according to the data 
  * form a sequence accoring to this table. 
  * 
- * Time complexity : O(N * size of each string)
+ * Time complexity : O(N * size of each string), O(26 * size of each string)
  * Space complexity : O(26 * size of each string)
  */
