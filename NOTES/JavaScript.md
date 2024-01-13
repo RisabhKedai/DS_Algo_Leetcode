@@ -107,3 +107,28 @@ The console will display the values of a, b, and c as 1, 2, 5.
 - Same destucturing can be done in function parameters
 
 - _ starting variables are private 
+
+- Suppose you have a file and you wish to import all of its contents into the current file. This can be done with the import * as syntax. Here's an example where the contents of a file named math_functions.js are imported into a file in the same directory:
+```
+import * as myMathModule from "./math_functions.js";
+```
+
+- Usually you will use this syntax if only one value is being exported from a file. It is also used to create a fallback value for a file or module. export default is used to declare a fallback value for a module or file, you can only have one value be a default export in each module or file. Additionally, you cannot use export default with var, let, or const
+
+- When you import a default export, you have the flexibility to choose any name for the import. This can be helpful if the module's name is long or if you want to use a different name locally.
+
+- A promise in JavaScript is exactly what it sounds like - you use it to make a promise to do something, usually asynchronously. When the task completes, you either fulfill your promise or fail to do so. Promise is a constructor function, so you need to use the new keyword to create one. It takes a function, as its argument, with two parameters - resolve and reject. These are methods used to determine the outcome of the promise. The syntax looks like this:
+```
+const myPromise = new Promise((resolve, reject) => {
+
+});
+```
+
+- .then function of a promise which takes in a callback function is called when the resolve method is called and the value passed as parameter to resolve method is the same value passed to the resolve method. 
+https://chat.openai.com/share/3436380b-3a2c-4427-84d4-2537421cfe90
+Similarly, catch is the method used when your promise has been rejected. It is executed immediately after a promise's reject method is called. Here’s the syntax:
+```
+myPromise.catch(error => {
+  
+});
+```
