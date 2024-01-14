@@ -5,3 +5,6 @@ Segment Trees:
 
 Sparse Table:
 1. Performs range query on static array quickly : https://www.geeksforgeeks.org/sparse-table/
+
+KMP String matching :
+https://www.youtube.com/watch?v=8B-LfpLxh2U
