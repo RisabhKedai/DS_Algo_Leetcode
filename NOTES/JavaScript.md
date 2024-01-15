@@ -132,3 +132,22 @@ myPromise.catch(error => {
   
 });
 ```
+
+- Regex in JS look like : /text/
+This can be tested on a string using ```test()``` function called on regex. Ex : ```regex.test(text)```
+
+- TO evaluate multiple expressions in a regex use | operator. 
+```regex = /exp1|exp2/```
+
+- To match the strings with ignoring case use the i flag after the regex.
+  /regex/i
+
+- Analogous to test() , ```match()``` is called on the string. and passed the regex value. Match returns a list of strings that match the regex value. 
+
+- The wildcard character . will match any one character. The wildcard is also called dot and period. You can use the wildcard character just like any other character in the regex. For example, if you wanted to match hug, huh, hut, and hum, you can use the regex /hu./ to match all four words.
+
+- [] define character classes in regex
+
+- To find a character occurs one or more times use + operator like ```/a+/``` . For checking the same but 0 or more times use * as: ```/a*/```
+
+- In regular expressions, a greedy match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a lazy match, which finds the smallest possible part of the string that satisfies the regex pattern. However, you can use the ? character to change it to lazy matching. "titanic" matched against the adjusted regex of /t[a-z]*?i/ returns ["ti"].
