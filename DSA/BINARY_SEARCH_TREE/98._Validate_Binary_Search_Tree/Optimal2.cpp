@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2024-01-15 21:34:44
 * @Last Modified by:   lenovo
-* @Last Modified time: 2024-01-15 21:51:05
+* @Last Modified time: 2024-01-15 23:08:09
 */
 
 /**
@@ -18,18 +18,16 @@
  */
 class Solution {
 public:
-	int pre;
+	TreeNode* prev;
     bool isValidBST(TreeNode* root) {
         if(root){
-        	if(root->left!=NULL){
-        		if(!isValidBST(root->left))
-        			return false;
-        		if(prev != NULL && prev>=root->val){
-        			return false;
-        		}
-        		prev = root;
-        		return isValidBST(root->right)
-        	}
+            if(!isValidBST(root->left))
+                return false;
+            if(prev!=NULL && prev->val>=root->val){
+                return false;
+            }
+            prev = root;
+            return isValidBST(root->right);
         }
         return true;
     }
