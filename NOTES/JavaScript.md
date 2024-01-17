@@ -151,3 +151,11 @@ This can be tested on a string using ```test()``` function called on regex. Ex :
 - To find a character occurs one or more times use + operator like ```/a+/``` . For checking the same but 0 or more times use * as: ```/a*/```
 
 - In regular expressions, a greedy match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a lazy match, which finds the smallest possible part of the string that satisfies the regex pattern. However, you can use the ? character to change it to lazy matching. "titanic" matched against the adjusted regex of /t[a-z]*?i/ returns ["ti"].
+
+- Outside of character set a caret character ^ searches if the first word in the string is matching. Similarly, You can search the end of strings using the dollar sign character $ at the end of the regex.
+
+- The closest character class in JavaScript to match the alphabet is \w. This shortcut is equal to [A-Za-z0-9_]. This character class matches upper and lowercase letters plus numbers. Note, this character class also includes the underscore character (_).
+
+- You can search for the opposite of the \w with \W. Note, the opposite pattern uses a capital letter. This shortcut is the same as [^A-Za-z0-9_].
+
+- You can search for whitespace using \s, which is a lowercase s. This pattern not only matches whitespace, but also carriage return, tab, form feed, and new line characters. You can think of it as similar to the character class [ \r\t\f\n\v]
