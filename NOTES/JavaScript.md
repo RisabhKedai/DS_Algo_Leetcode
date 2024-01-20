@@ -13,9 +13,15 @@
 - Google Course :
   https://learnjavascript.online/
 
+## FOCUS factors:
+- Promises
+- 
+
 ## Links and Posts:
 - Javascript Design Patterns :
   https://dev.to/jaimaldullat/series/25443
+- Promises: 
+  https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/
 
 ## Points to note: 
 
@@ -132,7 +138,7 @@ myPromise.catch(error => {
   
 });
 ```
-
+================= REGEX ===========================================================================
 - Regex in JS look like : /text/
 This can be tested on a string using ```test()``` function called on regex. Ex : ```regex.test(text)```
 
@@ -159,3 +165,26 @@ This can be tested on a string using ```test()``` function called on regex. Ex :
 - You can search for the opposite of the \w with \W. Note, the opposite pattern uses a capital letter. This shortcut is the same as [^A-Za-z0-9_].
 
 - You can search for whitespace using \s, which is a lowercase s. This pattern not only matches whitespace, but also carriage return, tab, form feed, and new line characters. You can think of it as similar to the character class [ \r\t\f\n\v]
+
+- You can specify the possible existence of an element with a question mark, ?. This checks for zero or one of the preceding element. You can think of this symbol as saying the previous element is optional.
+
+- To specify a certain number of patterns, just have that one number between the curly brackets.
+  
+- Lookaheads are patterns that tell JavaScript to look-ahead in your string to check for patterns further along. This can be useful when you want to search for multiple patterns over the same string.
+
+- Lookaheads are patterns that tell JavaScript to look-ahead in your string to check for patterns further along. This can be useful when you want to search for multiple patterns over the same string. There are two kinds of lookaheads: positive lookahead and negative lookahead.
+
+- A positive lookahead will look to make sure the element in the search pattern is there, but won't actually match it. A positive lookahead is used as (?=...) where the ... is the required part that is not matched.
+
+- A negative lookahead will look to make sure the element in the search pattern is not there. A negative lookahead is used as (?!...) where the ... is the pattern that you do not want to be there. The rest of the pattern is returned if the negative lookahead part is not present.
+
+- To specify that the entire string should match the regex we can use ^..regex..$ contruction. So it means that the string starts with the regex and ends with the regex
+
+- You can search and replace text in a string using .replace() on a string. The inputs for .replace() is first the regex pattern you want to search for. The second parameter is the string to replace the match or a function to do something.
+
+
+- You can also access capture groups in the replacement string with dollar signs ($).
+  ```
+  "Code Camp".replace(/(\w+)\s(\w+)/, '$2 $1');
+  ```
+  The replace call would return the string Camp Code.
