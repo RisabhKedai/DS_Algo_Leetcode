@@ -1,3 +1,11 @@
+
+Binary Search Variants:
+- https://www.geeksforgeeks.org/variants-of-binary-search/
+- https://leetcode.com/discuss/study-guide/1669642/binary-search-low-high-or-low-high
+
+KMP String matching :
+https://www.youtube.com/watch?v=8B-LfpLxh2U
+
 Segment Trees: 
 1. Patters in Segment Tree : https://usaco.guide/plat/RURQ?lang=cpp
 2. Problems on different pattern in Segment Trees : https://codeforces.com/blog/entry/22616
@@ -5,6 +13,3 @@ Segment Trees:
 
 Sparse Table:
 1. Performs range query on static array quickly : https://www.geeksforgeeks.org/sparse-table/
-
-KMP String matching :
-https://www.youtube.com/watch?v=8B-LfpLxh2U
