@@ -188,3 +188,14 @@ This can be tested on a string using ```test()``` function called on regex. Ex :
   "Code Camp".replace(/(\w+)\s(\w+)/, '$2 $1');
   ```
   The replace call would return the string Camp Code.
+
+
+===================== FUNCTIONAL PROGRAMMING ========================
+
+- Functional programming is about:
+  - Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
+  - Pure functions - the same input always gives the same output
+  - Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
+
+- 
+ 
