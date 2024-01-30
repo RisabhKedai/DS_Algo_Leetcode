@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2024-01-29 21:32:52
 * @Last Modified by:   lenovo
-* @Last Modified time: 2024-01-29 21:34:15
+* @Last Modified time: 2024-01-30 20:58:06
 */
 
 class Solution {
@@ -36,3 +36,11 @@ public:
         return {ans, ansr};
     }
 };
+
+
+/**
+ * Do binary search with different conditions to adjust the beg / end accordingly
+ * 
+ * Time complexity : O(logN)
+ * Space complxity : O(1)
+ */
