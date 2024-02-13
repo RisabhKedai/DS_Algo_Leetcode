@@ -197,5 +197,5 @@ This can be tested on a string using ```test()``` function called on regex. Ex :
   - Pure functions - the same input always gives the same output
   - Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
-- 
+- filter is used to filter values from an array, map is a perfect function used to map the values to a certain value. SLice(beg, end) is used to slice the array and return a array in between. 
  
