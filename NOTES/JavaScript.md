@@ -198,4 +198,5 @@ This can be tested on a string using ```test()``` function called on regex. Ex :
   - Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
 - filter is used to filter values from an array, map is a perfect function used to map the values to a certain value. SLice(beg, end) is used to slice the array and return a array in between. 
- 
+ The callback function accepts 4 arguments : item, index, array itself.
+-  intitialValue is A value to which accumulator is initialized the first time the callback is called. If initialValue is specified, callbackFn starts executing with the first value in the array as currentValue. If initialValue is not specified, accumulator is initialized to the first value in the array, and callbackFn starts executing with the second value in the array as currentValue. In this case, if the array is empty (so that there's no first value to return as accumulator), an error is thrown.
