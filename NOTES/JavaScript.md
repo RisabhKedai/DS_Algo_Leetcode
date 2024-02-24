@@ -12,6 +12,9 @@
   https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/developer.mozilla.org
 - Google Course :
   https://learnjavascript.online/
+- Freecode Camp Promise Handbook:
+  https://www.freecodecamp.org/news/the-javascript-promises-handbook/
+  https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
 
 ## FOCUS factors:
 - Promises
